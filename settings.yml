@@ -1,2 +1,6 @@
-example_setting:
-  default: true
+sidebar_menu_order:
+  type: list
+  list_type: simple
+  default: community|categories|tags|chat-channels|chat-dms|chat-search
+  description: 
+    en: "Use the arrow buttons to move the sidebar menu sections up and down to put them in the order you want them to appear to your users. The `community` section is the default top part of the sidebaar that also includes the `More` button and dropdown. To use a custom global menu, enter the menu slug name (for example `menu-name` or `test-menu`)."
