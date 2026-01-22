@@ -13,3 +13,10 @@ This Discourse theme component lets administators reorder their forum's sidebar 
 - After adding new global custom sections to the sidebar_menu_order setting, users may need to refresh their page or collapse/expand the sidebar to see the correct ordering.
 - User-created custom menu sections will always appear at the bottom part of the sidebar for that user.
 - If the `Admin -> All_site_settings -> Chat_separate_sidebar_mode` setting is set to `Always`, the chat button will appear as usual at the bottom and the component will ignore the default chat menu sections (`chat-dms`, `chat-channels` and `chat-search`).
+
+---
+**Discourse Meta Topic**: https://meta.discourse.org/t/discourse-sidebar-menu-reorder/394049
+
+**Support**: For issues or feature requests, please post in the [Meta topic](https://meta.discourse.org/t/discourse-sidebar-menu-reorder/394049) or start a PR on this repo.  
+
+**To hire me or buy me coffee**: visit me here: [Lilly@Discourse Meta](https://meta.discourse.org/u/Lilly/summary).
