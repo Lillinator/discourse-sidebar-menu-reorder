@@ -1,1 +1,5 @@
-// Theme's SCSS
+// * We need to add the bottom border to custom sections if they are moved * //
+
+.sidebar-sections > .sidebar-section-wrapper {
+  border-bottom: 1px solid var(--d-sidebar-section-border-color);
+}

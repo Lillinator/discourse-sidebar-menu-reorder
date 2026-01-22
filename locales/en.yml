@@ -1,5 +1,5 @@
 en:
   theme_metadata:
-    description: "TODO"
+    description: "Discourse Sidebar Menu Reorder"
     settings:
-      example_setting: "A description of a setting."
+      example_setting: "sidebar_menu_order"
