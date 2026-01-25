@@ -4,7 +4,7 @@
 This Discourse theme component lets administators reorder their forum's sidebar menu sections, including all the default sections as well as any custom global sections.  The component works for both desktop and mobile sidebar views.
 
 ## Installation & Configuration
-- Install this theme component as per [Beginner’s guide to using Discourse Themes](https://meta.discourse.org/t/installing-a-theme-or-theme-component/63682).
+- Install this theme component as per [Installing a theme or theme component](https://meta.discourse.org/t/installing-a-theme-or-theme-component/63682).
 - The `community` section refers to the default top section of the sidebar - the menu with the **Topics** header and includes the **More** dropdown submenu; it is recommended that more more than one or two sections (default or custom) be moved above the `community` section.  
 - Do not delete any of the default sections in the setting or they will be out of order (you can always add them back or reset the setting).   
 - The best way to set this component up is to have the component admin screen with the reorder list setting in one browser window, and the forum siderbar view as a test user in another one beside it; reload the page after every menu section order change in the list.  
