@@ -10,9 +10,12 @@
 
 // * Add mobile flex direction support * //
 @include viewport.until(md) {
+  .sidebar-sections > .sidebar-section-wrapper {
+    border-bottom: none !important;
+  }
 
   .sidebar-sections {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
   }
 }
