@@ -1,4 +1,4 @@
-// * We need to add the bottom border to custom sections if they are moved * //
+// * We need to add the bottom border to custom sections if they are moved, but only for desktop and tablet * //
 @use "lib/viewport";
 
 @include viewport.from(md) {
