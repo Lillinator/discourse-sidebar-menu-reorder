@@ -6,3 +6,13 @@
     border-bottom: 1px solid var(--d-sidebar-section-border-color);
   }
 }
+
+
+// * Add mobile flex direction support * //
+@include viewport.until(md) {
+
+  .sidebar-sections {
+    display: flex;
+  flex-direction: column;
+  }
+}
