@@ -1,5 +1,5 @@
 en:
   theme_metadata:
     description: "Discourse Sidebar Menu Reorder"
-    settings:
-      example_setting: "sidebar_menu_order"
+    settings: 
+      sidebar_menu_order: "Use the arrow buttons to move the sidebar menu sections up and down to put them in the order you want them to appear to your users. The `community` section is the default top part of the sidebaar that also includes the `More` button and dropdown. To use a custom global menu, enter the menu slug name (for example `menu-name` or `test-menu`)."
