@@ -1,7 +1,7 @@
 // * We need to add the bottom border to custom sections if they are moved * //
 @use "lib/viewport";
 
-@include viewport.until(md) {
+@include viewport.from(md) {
   .sidebar-sections > .sidebar-section-wrapper {
     border-bottom: 1px solid var(--d-sidebar-section-border-color);
   }
