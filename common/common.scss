@@ -1,18 +1,13 @@
-// * We need to add the bottom border to custom sections if they are moved, but only for desktop and tablet * //
 @use "lib/viewport";
 
-@include viewport.from(md) {
-  .sidebar-sections > .sidebar-section-wrapper {
-    border-bottom: 1px solid var(--d-sidebar-section-border-color);
-  }
-}
+// * We need to remove the bottom border for mobile view * //
 
-
-// * Add mobile flex direction support * //
 @include viewport.until(md) {
   .sidebar-sections > .sidebar-section-wrapper {
     border-bottom: none !important;
   }
+  
+  // * Add mobile flex direction support * //
 
   .sidebar-sections {
     display: flex;
